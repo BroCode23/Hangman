@@ -14,7 +14,7 @@ def pick_word(file_name):
         for line in hgm:
             line = line.split()
             word_list.append(str.strip(line[0])) #takes the words and puts it in a list
-    return word_list[random.randint(0, len(lines))] #picks a random word from the list
+    return word_list[random.randint(0, len(word_list))] #picks a random word from the list
 
 def draw_hangman(limbs_lost):
     """prints out the visual for the hangman"""
