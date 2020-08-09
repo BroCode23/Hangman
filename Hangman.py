@@ -84,14 +84,13 @@ def hangman_game(word_list):
         if not guess:
             print("Don't just hit enter, guess something!")
             continue
-        elif guess not in LETTERS:
+        guess = guess[0].lower()
+        if guess not in LETTERS:
             print("type a letter ya goof")
             continue
         elif guess in guesses:
             print("you already guessed this letter!")
             continue
-        else:
-            guess = guess[0].lower()
 
         index = []
         find_letters_in_word(index, guess, word)

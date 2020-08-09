@@ -1,0 +1,9 @@
+{
+    "editor.tabCompletion": "onlySnippets",
+    "editor.unusualLineTerminators": "auto",
+    "editor.comments.insertSpace": true,
+    "python.pythonPath": "C:\\Users\\Public\\anaconda3\\python.exe",
+    "python.linting.pylintArgs": [
+        "--variable-naming=camelCase"
+    ]
+}
